@@ -1,0 +1,55 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Maggie Mac",
+            "email": "sugarbritches@wifey.com"
+        },
+        {
+            "id": 2,
+            "name": "Steve Brownlee",
+            "email": "coach@steve.com"
+        }
+    ],
+    "inventory": [
+        {
+            "id": 1,
+            "name": "Tent 10x10",
+            "userId": 1,
+            "InventoryTypeId": "1",
+            "quantity": 3,
+            "picture": "url@url.com"
+        },
+        {
+            "id": 2,
+            "name": "Table 6ft",
+            "userId": 1,
+            "InventoryTypeId": "1",
+            "quantity": 5,
+            "picture": "url@url.com"
+        },
+        {
+            "id": 3,
+            "name": "Podium, portable",
+            "userId": 2,
+            "InventoryTypeId": "3",
+            "quantity": 4,
+            "picture": "url@url.com"
+        }
+    ],
+    "inventoryTypes": [
+        {
+            "id": 1,
+            "nameOfType": "table"
+        },
+        {
+            "id": 2,
+            "nameOfType": "tent"
+        },
+        {
+            "id": 3,
+            "nameOfType": "podium"
+        }
+    ],
+    "userInventory": []
+}
