@@ -3,45 +3,71 @@
     {
       "id": 1,
       "name": "Maggie Mac",
+      "address": "111 Address Cove",
+      "phone": "555-420-6969",
       "email": "sugarbritches@wifey.com"
     },
     {
       "id": 2,
       "name": "Steve Brownlee",
+      "address": "PO Box GFY",
+      "phone": "123-456-7890",
       "email": "coach@steve.com"
     },
     {
       "name": "Bonnie",
-      "address": "122 Catalpa Cove",
+      "address": "122 Highlander Ave",
       "phone": "555-555-5555",
       "email": "bonnie@wee-lass.com",
       "id": 3
+    },
+    {
+      "name": "Boots",
+      "address": "1412 Colorado Ranch Dr",
+      "phone": "555-555-5599",
+      "email": "perro@boots.com",
+      "id": 4
+    },
+    {
+      "name": "Bart Simpson",
+      "address": "123 Eat My Shorts Ave",
+      "phone": "555-123-1234",
+      "email": "bart@simpson.com",
+      "id": 5
     }
   ],
-  "inventory": [
+  "inventories": [
     {
-      "id": 1,
-      "name": "10x10",
-      "userId": 1,
-      "typeId": 2,
-      "quantity": 3,
-      "picture": "url@url.com"
-    },
-    {
-      "id": 2,
-      "name": "6ft",
-      "userId": 2,
+      "name": "6 ft.",
+      "userId": 3,
       "typeId": 1,
       "quantity": 5,
-      "picture": "url@url.com"
+      "picture": "image@url.com",
+      "id": 1
     },
     {
-      "id": 3,
       "name": "pop-up",
       "userId": 1,
       "typeId": 3,
-      "quantity": 4,
-      "picture": "url@url.com"
+      "quantity": 1,
+      "picture": "image@url.com",
+      "id": 2
+    },
+    {
+      "name": "12x12",
+      "userId": 1,
+      "typeId": 2,
+      "quantity": 10,
+      "picture": "url@url.com",
+      "id": 3
+    },
+    {
+      "name": "hand sanitizer",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": "10",
+      "picture": "picture@pic.com",
+      "id": 4
     }
   ],
   "types": [
@@ -64,21 +90,52 @@
   ],
   "userInventory": [
     {
-      "id": 3,
-      "name": "pop-up",
+      "inventoryId": 2,
+      "userId": 3,
+      "timestamp": 1647613160,
+      "id": 1
+    },
+    {
+      "inventoryId": 1,
       "userId": 1,
-      "typeId": "3",
-      "quantity": 4,
-      "picture": "url@url.com",
-      "user": {
-        "id": 1,
-        "name": "Maggie Mac",
-        "email": "sugarbritches@wifey.com"
-      },
-      "type": {
-        "id": 3,
-        "nameOfType": "Podium"
-      }
+      "timestamp": 1647634322,
+      "id": 2
+    },
+    {
+      "inventoryId": 2,
+      "userId": 1,
+      "timestamp": 1647634325,
+      "id": 3
+    },
+    {
+      "inventoryId": 4,
+      "userId": 1,
+      "timestamp": 1647634328,
+      "id": 5
+    },
+    {
+      "inventoryId": 4,
+      "userId": 1,
+      "timestamp": 1647634328,
+      "id": 6
+    },
+    {
+      "inventoryId": 4,
+      "userId": 1,
+      "timestamp": 1647634328,
+      "id": 7
+    },
+    {
+      "inventoryId": 4,
+      "userId": 1,
+      "timestamp": 1647634329,
+      "id": 8
+    },
+    {
+      "inventoryId": 3,
+      "userId": 1,
+      "timestamp": 1647634348,
+      "id": 18
     }
   ]
 }
