@@ -1,7 +1,6 @@
 {
   "users": [
     {
-      
       "name": "Maggie",
       "address": "111 Address Cove",
       "phone": "555-420-6969",
@@ -10,7 +9,6 @@
       "id": 1
     },
     {
-      
       "name": "Darla",
       "address": "PO Box GFY",
       "phone": "123-456-7890",
@@ -45,44 +43,60 @@
   ],
   "inventories": [
     {
-      "name": "6 ft.",
+      "name": "4 ft.",
       "userId": 1,
       "typeId": 1,
       "quantity": 3,
-      "picture": "image@url.com",
+      "picture": "",
       "id": 1
-    },
-    {
-      "name": "pop-up",
-      "userId": 1,
-      "typeId": 3,
-      "quantity": 3,
-      "picture": "image@url.com",
-      "id": 2
     },
     {
       "name": "10x10",
       "userId": 1,
       "typeId": 2,
       "quantity": 2,
-      "picture": "url@url.com",
-      "id": 3
+      "picture": "",
+      "id": 2
     },
     {
-      "name": "hand sanitizer",
+      "name": "pop-up",
       "userId": 1,
-      "typeId": 4,
-      "quantity": 11,
-      "picture": "picture@pic.com",
-      "id": 4
+      "typeId": 3,
+      "quantity": 3,
+      "picture": "",
+      "id": 3
     },
     {
       "name": "stand-alone",
       "userId": 1,
       "typeId": 3,
-      "quantity": 4,
+      "quantity": 3,
+      "picture": "",
+      "id": 4
+    },
+    {
+      "name": "hand sanitizer",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 21,
       "picture": "",
       "id": 5
+    },
+    {
+      "name": "8 ft.",
+      "userId": 1,
+      "typeId": 1,
+      "quantity": 3,
+      "picture": "",
+      "id": 6
+    },
+    {
+      "name": "2x2 ft. floor tiles",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 19,
+      "picture": "",
+      "id": 7
     }
   ],
   "types": [
@@ -107,26 +121,44 @@
     {
       "inventoryId": 1,
       "userId": 1,
-      "timestamp": 1647873987,
+      "timestamp": 1647895701630,
       "id": 1
     },
     {
       "inventoryId": 2,
       "userId": 1,
-      "timestamp": 1647873987,
+      "timestamp": 1647895702270,
       "id": 2
     },
     {
       "inventoryId": 3,
       "userId": 1,
-      "timestamp": 1647873988,
+      "timestamp": 1647895702849,
       "id": 3
     },
     {
       "inventoryId": 4,
       "userId": 1,
-      "timestamp": 1647873988,
+      "timestamp": 1647895703329,
       "id": 4
+    },
+    {
+      "inventoryId": 5,
+      "userId": 1,
+      "timestamp": 1647895703776,
+      "id": 5
+    },
+    {
+      "inventoryId": 6,
+      "userId": 1,
+      "timestamp": 1647895704209,
+      "id": 6
+    },
+    {
+      "inventoryId": 7,
+      "userId": 1,
+      "timestamp": 1647895704613,
+      "id": 7
     }
   ]
 }
