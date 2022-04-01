@@ -9,14 +9,6 @@
       "id": 1
     },
     {
-      "name": "Darla",
-      "address": "PO Box GFY",
-      "phone": "123-456-7890",
-      "email": "darla@darla.com",
-      "admin": false,
-      "id": 2
-    },
-    {
       "name": "Bonnie",
       "address": "122 Highlander Ave",
       "phone": "555-555-5555",
@@ -39,6 +31,13 @@
       "email": "keith@keith.com",
       "admin": false,
       "id": 5
+    },
+    {
+      "name": "Darla",
+      "address": "PO Box GFY",
+      "phone": "5555555555",
+      "email": "darla@darla.com",
+      "id": 6
     }
   ],
   "inventories": [
@@ -46,15 +45,15 @@
       "name": "4 ft.",
       "userId": 1,
       "typeId": 1,
-      "quantity": 3,
-      "picture": "",
+      "quantity": 4,
+      "picture": "image@url.com",
       "id": 1
     },
     {
       "name": "10x10",
       "userId": 1,
       "typeId": 2,
-      "quantity": 2,
+      "quantity": 3,
       "picture": "",
       "id": 2
     },
@@ -62,7 +61,7 @@
       "name": "pop-up",
       "userId": 1,
       "typeId": 3,
-      "quantity": 3,
+      "quantity": 4,
       "picture": "",
       "id": 3
     },
@@ -70,33 +69,33 @@
       "name": "stand-alone",
       "userId": 1,
       "typeId": 3,
-      "quantity": 3,
-      "picture": "",
+      "quantity": 5,
+      "picture": "image@url.com",
       "id": 4
-    },
-    {
-      "name": "hand sanitizer",
-      "userId": 1,
-      "typeId": 4,
-      "quantity": 21,
-      "picture": "",
-      "id": 5
     },
     {
       "name": "8 ft.",
       "userId": 1,
       "typeId": 1,
-      "quantity": 3,
-      "picture": "",
+      "quantity": 4,
+      "picture": "image@url.com",
       "id": 6
     },
     {
       "name": "2x2 ft. floor tiles",
       "userId": 1,
       "typeId": 4,
-      "quantity": 19,
+      "quantity": 20,
       "picture": "",
       "id": 7
+    },
+    {
+      "name": "hand sanitizer",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 22,
+      "picture": "",
+      "id": 8
     }
   ],
   "types": [
@@ -114,51 +113,9 @@
     },
     {
       "id": 4,
-      "nameOfType": "Miscellaneous"
+      "nameOfType": "Misc."
     }
   ],
-  "userInventory": [
-    {
-      "inventoryId": 1,
-      "userId": 1,
-      "timestamp": 1647895701630,
-      "id": 1
-    },
-    {
-      "inventoryId": 2,
-      "userId": 1,
-      "timestamp": 1647895702270,
-      "id": 2
-    },
-    {
-      "inventoryId": 3,
-      "userId": 1,
-      "timestamp": 1647895702849,
-      "id": 3
-    },
-    {
-      "inventoryId": 4,
-      "userId": 1,
-      "timestamp": 1647895703329,
-      "id": 4
-    },
-    {
-      "inventoryId": 5,
-      "userId": 1,
-      "timestamp": 1647895703776,
-      "id": 5
-    },
-    {
-      "inventoryId": 6,
-      "userId": 1,
-      "timestamp": 1647895704209,
-      "id": 6
-    },
-    {
-      "inventoryId": 7,
-      "userId": 1,
-      "timestamp": 1647895704613,
-      "id": 7
-    }
-  ]
+  "masterRecord": [],
+  "userInventory": []
 }
