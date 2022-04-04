@@ -37,85 +37,169 @@
       "address": "PO Box GFY",
       "phone": "5555555555",
       "email": "darla@darla.com",
+      "admin": true,
       "id": 6
     }
   ],
   "inventories": [
     {
-      "name": "4 ft.",
+      "name": "10 x 10 ft.",
       "userId": 1,
-      "typeId": 1,
-      "quantity": 4,
-      "picture": "image@url.com",
+      "typeId": 2,
+      "quantity": 2,
+      "picture": "https://cdn.bannerbuzz.com/media/catalog/product/resize/560/w/h/white-canopy-tent-4_1_1.jpg",
       "id": 1
     },
     {
-      "name": "10x10",
+      "name": "6 ft.",
       "userId": 1,
-      "typeId": 2,
-      "quantity": 3,
-      "picture": "",
+      "typeId": 1,
+      "quantity": 2,
+      "picture": "https://m.media-amazon.com/images/I/31X7IM0x8bL._AC_.jpg",
       "id": 2
     },
     {
-      "name": "pop-up",
+      "name": "Stand-alone",
       "userId": 1,
       "typeId": 3,
-      "quantity": 4,
-      "picture": "",
+      "quantity": 3,
+      "picture": "https://cdn.shopify.com/s/files/1/1039/1662/products/avfi-podiums-pd3003-2_1_1024x1024.jpg?v=1625102535",
       "id": 3
     },
     {
-      "name": "stand-alone",
+      "name": "Pop-up",
       "userId": 1,
       "typeId": 3,
-      "quantity": 5,
-      "picture": "image@url.com",
+      "quantity": 1,
+      "picture": "https://static.commerceplatform.services/images/zoom/6lpbktbk.rw_thumb.jpg",
       "id": 4
     },
     {
-      "name": "8 ft.",
+      "name": "4 ft.",
       "userId": 1,
       "typeId": 1,
-      "quantity": 4,
-      "picture": "image@url.com",
-      "id": 6
+      "quantity": 1,
+      "picture": "https://cdnimg.webstaurantstore.com/images/products/large/524108/1966889.jpg",
+      "id": 5
     },
     {
       "name": "2x2 ft. floor tiles",
       "userId": 1,
       "typeId": 4,
-      "quantity": 20,
-      "picture": "",
-      "id": 7
-    },
-    {
-      "name": "hand sanitizer",
-      "userId": 1,
-      "typeId": 4,
-      "quantity": 22,
-      "picture": "",
-      "id": 8
+      "quantity": 15,
+      "picture": "https://mobileimages.lowes.com/productimages/947ced42-6612-452d-ba1e-2c5c8b799af5/05044401.jpg?size=pdhism",
+      "id": 6
     }
   ],
   "types": [
     {
       "id": 1,
-      "nameOfType": "Table"
+      "nameOfType": "table"
     },
     {
       "id": 2,
-      "nameOfType": "Tent"
+      "nameOfType": "tent"
     },
     {
       "id": 3,
-      "nameOfType": "Podium"
+      "nameOfType": "podium"
     },
     {
       "id": 4,
-      "nameOfType": "Misc."
+      "nameOfType": "misc."
     }
   ],
   "masterRecord": [],
-  "userInventory": []
+  "userInventory": [
+    {
+      "inventoryId": 6,
+      "userId": 5,
+      "timestamp": 1649037884606,
+      "id": 6
+    },
+    {
+      "inventoryId": 6,
+      "userId": 5,
+      "timestamp": 1649037884841,
+      "id": 7
+    },
+    {
+      "inventoryId": 6,
+      "userId": 5,
+      "timestamp": 1649037885130,
+      "id": 8
+    },
+    {
+      "inventoryId": 6,
+      "userId": 5,
+      "timestamp": 1649037885352,
+      "id": 9
+    },
+    {
+      "inventoryId": 6,
+      "userId": 5,
+      "timestamp": 1649037885573,
+      "id": 10
+    },
+    {
+      "inventoryId": 1,
+      "userId": 5,
+      "timestamp": 1649037887630,
+      "id": 11
+    },
+    {
+      "inventoryId": 2,
+      "userId": 5,
+      "timestamp": 1649037888657,
+      "id": 12
+    },
+    {
+      "inventoryId": 3,
+      "userId": 5,
+      "timestamp": 1649037889871,
+      "id": 13
+    },
+    {
+      "inventoryId": 1,
+      "userId": 3,
+      "timestamp": 1649041649920,
+      "id": 14
+    },
+    {
+      "inventoryId": 2,
+      "userId": 3,
+      "timestamp": 1649041651038,
+      "id": 15
+    },
+    {
+      "inventoryId": 3,
+      "userId": 3,
+      "timestamp": 1649041652507,
+      "id": 16
+    },
+    {
+      "inventoryId": 4,
+      "userId": 3,
+      "timestamp": 1649041657221,
+      "id": 17
+    },
+    {
+      "inventoryId": 4,
+      "userId": 3,
+      "timestamp": 1649041657734,
+      "id": 18
+    },
+    {
+      "inventoryId": 5,
+      "userId": 1,
+      "timestamp": 1649047921646,
+      "id": 19
+    },
+    {
+      "inventoryId": 4,
+      "userId": 1,
+      "timestamp": 1649047922206,
+      "id": 20
+    }
+  ]
 }
